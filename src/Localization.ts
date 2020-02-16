@@ -30,7 +30,6 @@ export class Localization {
 
 	public static translate(language: string, term: string, replacements?: {[key: string]: string | number}): string {
 		let lang = this.languages[language];
-		console.log(this.languages);
 
 		if (!lang) {
 			if (this.languages['en'] && this.languages['en'][term]) {
