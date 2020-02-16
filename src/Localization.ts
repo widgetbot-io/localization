@@ -44,7 +44,7 @@ export class Localization {
 		let content = lang[term];
 
 		for (const replacement in replacements) {
-			content = content.replace(new RegExp(`{${replacement}`, 'g'), replacements[replacement])
+			content = content.replace(new RegExp(`{${replacement}}`, 'g'), replacements[replacement])
 		}
 
 		return content;
