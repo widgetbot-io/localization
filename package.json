@@ -1,0 +1,20 @@
+{
+  "name": "@venix/localization",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": "https://github.com/widgetbot-io/localization",
+  "author": "Daave <daave@aaathats3as.com>",
+  "main": "compiled/index.js",
+  "types": "compiled/index.d.ts",
+  "files": [
+    "compiled/**/*",
+    "yarn.lock"
+  ],
+  "scripts": {
+    "prepublishOnly": "yarn build",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1"
+  }
+}

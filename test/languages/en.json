@@ -1,0 +1,5 @@
+{
+  "ping.start": "Ping",
+  "ping": "Pong! My ping to discord is {PING1} and to my gateway is: {PING2}",
+  "hello.world": "Hello World!"
+}
